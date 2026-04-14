@@ -1,10 +1,6 @@
 .header {
-  height: $header-height-mobile;
+  height: $header-height;
   background: url('../images/bg/header-bg.png') 50% 50% / cover no-repeat;
-
-  @include respond-to('desktop') {
-    height: $header-height-desktop;
-  }
 
   &__content {
     height: 100%;

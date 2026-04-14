@@ -1,10 +1,6 @@
 .menu {
-  height: $header-height-mobile;
+  height: $header-height;
   overflow: auto;
-
-  @include respond-to('desktop') {
-    height: $header-height-desktop;
-  }
 
   &__top {
     @include top-block-style;
